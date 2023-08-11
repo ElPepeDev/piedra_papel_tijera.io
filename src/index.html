@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierda Papel o Tijeras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <th></th>
+                <th>Puntos</th>
+            </tr>
+            <tr>
+                <td>Jugador</td>
+                <td id="puntosJugador"></td>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td id="puntosCPU"></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <div>
+        <P>Seleccion del jugador</P>
+        <table>
+            <tr>
+                <td><button class="button button1" id="jugadorPiedra">Piedra</button></td>
+                <td><button class="button button1" id="jugadorPapel">Papel</button></td>
+                <td><button class="button button1" id="jugadorTijeras">Tijeras</button></td>
+                
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <P>Seleccion del CPU</P>
+        <table>
+            <tr>
+                <td><button class="button disabled"id="cpuPiedra">Piedra</button></td>
+                <td><button class="button disabled"id="cpuPapel">Papel</button></td>
+                <td><button class="button disabled"id="cpuTijeras">Tijeras</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <p id="mensaje"></p>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
